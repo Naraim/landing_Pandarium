@@ -1,0 +1,168 @@
+body, html {
+  height: 100%;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background-color: #F1F1F1;
+  overflow: auto;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-track{
+  background-color: rgb(153, 153, 153);
+}
+
+body::-webkit-scrollbar-thumb{
+  background-color: rgb(32, 38, 32);
+}
+
+.header{
+  background: url(./img/fondo1.svg) no-repeat center;
+  min-height: 50rem;
+  background-size: cover;
+  height: auto;
+
+}
+
+.conteiner{
+  max-width: 100%;
+}
+
+.navbar-brand{
+  color: #ECF0F1 !important;
+}
+
+.logo-titulo{
+  font-family: 'Amaranth', sans-serif;
+  font-size: 30px;
+}
+
+.inicio{
+  font-family: 'Muli', sans-serif !important;
+  font-size: 18px !important;
+  color: #ECF0F1;
+}
+
+.registro a{
+  font-family: 'Muli', sans-serif !important;
+  font-size: 18px !important;
+  color: #ECF0F1 !important;
+}
+
+.registro a:hover{
+  text-decoration: none;
+}
+
+.logo{
+  margin-top: 80px;
+
+}
+
+.landing-text{
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.loguito{
+  height: 100px;
+}
+
+.titulo{
+  margin-top: 40px;
+  padding: 0;
+  font-family: 'Montserrat' sans-serif;
+  color: #ECF0F1;
+}
+
+.titulo h1{
+  font-size: 40px !important;
+}
+
+.subs{
+  margin-top: 20px;
+  font-family: 'Muli' sans-serif;
+  font-size: 20px;
+  color: #ECF0F1;
+  text-align: center;
+}
+
+.botones{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row;
+}
+.botones a{
+  margin: 50px 20px;
+}
+
+.botones a img{
+  height: 80%;
+}
+
+.apps{
+  margin-bottom: 80px;
+}
+
+.pantallas{
+  margin-top: 100px;
+  color: 222F3E;
+  text-align: center;
+}
+
+.pantallas h3{
+  margin-top: 20px;
+  font-size: 30px;
+  font-family: 'Montserrat' sans-serif;
+  font-weight: 700;
+}
+
+.call_to{
+  background: url(./img/fondo2.svg) no-repeat center ;
+  min-width: 100hv;
+  min-height: 25rem;
+  background-size: cover;
+  height: auto;
+  background-attachment: fixed;
+  padding-top: 50px;
+}
+
+.footer{
+  margin: 20px 0;
+}
+
+.iconitos{
+  margin: 10px 30px;
+}
+
+.iconitos img{
+  height: 30px;
+  margin: 10px;
+}
+
+.footer1 p{
+  margin: 0 30px;
+}
+
+.footer2{
+  margin: 20px 0;
+}
+
+.footer2 p{
+  padding-right: 30px;
+}
+
+@media screen and (max-width: 700px){
+  .botones{
+    flex-flow: column;
+  }
+}
